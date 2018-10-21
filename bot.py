@@ -1,6 +1,6 @@
 # coding=utf-8
 import vk_api
-vkontakte = vk_api.VkApi(token='8b4e4e35b0dc2c582ca98f57b13bb67b06ebe79e4929a2dfed75058060e0284d50422ea733e97d99930fb')
+vkontakte = vk_api.VkApi(token='0db8b23cc3faf1f60b3aac6ea1a748430863739270b64384256e77c479922e5e718bce010691dbfefa524')
 vkontakte._auth_token()
 values = {'out': 0, 'count': 100, 'time_offset': 60}
 
